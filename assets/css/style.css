@@ -122,10 +122,20 @@ html {
 
 body {
   background-color: var(--eerie-black);
-  color: hsl(0deg 0% 93.7%);
+  color: hsl(0, 0%, 73%);
   font-size: 1.6rem;
   line-height: 1.75;
   overflow: hidden;
+}
+
+.section-text {
+  margin: 0; /* Ensures no extra margin */
+}
+
+.highlight {
+  background-color: var(--eerie-black);; /* Highlight color, e.g., yellow-orange */
+  padding: 2px 5px; /* Space around the text */
+  border-radius: 3px; /* Optional: Rounded edges */
 }
 
 body.loaded { overflow: overlay; }
