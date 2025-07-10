@@ -122,7 +122,7 @@ html {
 
 body {
   background-color: var(--eerie-black);
-  color: var(--roman-silver);
+  color: hsl(0deg 0% 93.7%);
   font-size: 1.6rem;
   line-height: 1.75;
   overflow: hidden;
